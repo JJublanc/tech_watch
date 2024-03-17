@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tech-watch"
+version = "0.1.0"
+description = ""
+authors = ["jjublanc <johan.jublanc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.1"
+nltk = "^3.8.1"
+langchain-openai = "^0.0.8"
+tiktoken = "^0.6.0"
+chromadb = "^0.4.24"
+langchain = "^0.1.11"
+googlesearch-python = "^1.2.3"
+faiss-cpu = "^1.8.0"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
